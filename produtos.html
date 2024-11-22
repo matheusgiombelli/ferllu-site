@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>produtos</title>
         <link rel="stylesheet" href="produtos.css">
+        <script type="module" src="js/apiFetch.js"></script>
     </head>
     <body>
         <header>
@@ -27,61 +28,13 @@
             <section>
                 <h1 class="titulo1">ORQUÍDEAS</h1>
                 
-                <div class="recentes-container">
-                    
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_1.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_2.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_3.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    
-                </div>
-                <div class="recentes-container">
-                    
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_4.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_7.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    <div class="recentes">
-                        <button class="botao-recentes"><img src="imagens/orquidea_6.jpg" alt="" class="img-recentes"></button>
-                        <h1 class="titulo">ORQUÍDEA</h1>
-                    </div>
-                    
+                <div class="recentes-container" id="orquideas">
                 </div>
             </section>
             <section>
                 
                 <h1 class="titulo1">BUQUÊS</h1>
-                <div class="secao2">
-                    
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/buque_4.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Buquê</h1>
-                        <p></p>
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/buque_3.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Buquê</h1>
-                        <p></p>
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/buque.png" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Buquê</h1>
-                        <p></p>
-                    </div>
-                    
-                
+                <div class="secao2" id="buques">
                 </div>
                 
                 
@@ -89,72 +42,16 @@
             <section>
                 
                 <h1 class="titulo1">FLORES NATURAIS</h1>
-                <div class="secao2">
-                    
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/flor_1.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">planta</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/flor_2.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">planta</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/flor_3.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">planta</h1>
-                        
-                    </div>
-                    
-                    
+                <div class="secao2" id="floresNaturais">
                 </div>
                 
             </section>
             <section>
                 
                 <h1 class="titulo1">VASOS E CACHEPÔS</h1>
-                <div class="secao2">
-                    
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_1.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_2.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_3.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    
-                    
+                <div class="secao2" id="vasosECachepos">   
                 </div>
-                <div class="secao2">
-                    
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_4.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_5.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    <div class="destaques">
-                        <button class="botao-destaques"><img src="imagens/Vasos_6.jpg" alt="" class="img-destaques"></button>
-                        <h1 class="titulo">Vasos</h1>
-                        
-                    </div>
-                    
-                    
-                </div>
-                <section>
+            <!-- <section>
                 
                 <h1 class="titulo1">PRESENTES</h1>
                 <div class="secao2">
@@ -178,8 +75,6 @@
                 
                 </div>
                 
-                
-            </section>
                 
             </section>
             <section>
@@ -248,7 +143,7 @@
                     
                 </div>
                 
-            </section>
+            </section> -->
 
             <footer>
                 <div class="main-content-footer">

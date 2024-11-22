@@ -232,6 +232,17 @@ footer {
     transform: scale(1.1);
 }
 
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 5px;
+    color: #fadbeb;
+    background-color: #fadbeb;
+    border-radius: 5px;
+}
+
 @media (max-width: 1024px) {
     .title-servicos, .content-servicos p {
         margin: 0 100px;
